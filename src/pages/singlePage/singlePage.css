@@ -1,0 +1,272 @@
+.single-video {
+  background-color: black;
+  color: white;
+  margin-top: 56px;
+  display: flex;
+  padding: 30px 0;
+  justify-content: center;
+}
+
+.videoPostSection {
+  width: 100%;
+  max-width: 875px;
+  display: flex;
+  flex-direction: column;
+}
+
+.video_youtube {
+  width: 100%;
+}
+
+.video_yt_video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.video-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-title {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.video-detail-descriptionsProfile_left {
+  display: flex;
+  gap: 15px;
+}
+
+.video-detail-descriptionsProfileImage_left {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.video-detail-descriptionsProfileImg_left {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.video-detail-descriptions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.ytvideo_subview {
+  display: flex;
+  flex-direction: column;
+}
+
+.ytpostProfileName {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.ytpostProfileDate {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.subscribeButton {
+  background-color: white;
+  color: black;
+  padding: 0px 16px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* like block*/
+
+.ytvideoRightLikeBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border-radius: 18px;
+  gap: 10px;
+  background-color: #a5a5a538;
+  cursor: pointer;
+}
+
+.ytvideoRightLikeBlockLike {
+  display: flex;
+  gap: 10px;
+}
+
+.divider {
+  width: 0px;
+  height: 20px;
+  border: 1px solid;
+}
+
+.likeCount {
+  font-weight: 500;
+}
+
+/* video description  */
+
+.ytvideodescription {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #a5a5a538;
+  font-weight: 500;
+  font-size: 14px;
+  gap: 30px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.viewsCount {
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+/* video comment section  */
+
+.videoCommentSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.ytVideoCommentSection {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.userSelfComments {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.selfCommentProfilePic {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.addComment {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.addUserComment {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 35px;
+  border: none;
+  font-size: 16px;
+  border-bottom: 1px solid gray;
+  &:focus {
+    outline: none;
+  }
+  &::placeholder {
+    font-size: 16px;
+  }
+}
+
+.commentButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 10px;
+}
+.commentButton {
+  padding: 8px 16px;
+  border-radius: 18px;
+  border: 1px solid;
+  cursor: pointer;
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.ytOthersComments {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.othersCommentSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.othersCommentSection_Header {
+  display: flex;
+  gap: 10px;
+}
+
+.randomUserComment {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.commentTime {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.othersCommentSection_body {
+  margin-top: 10px;
+}
+/*----------------- video suggestion part ------------- */
+.videoSuggestion {
+  color: white;
+  width: 100%;
+  max-width: 406px;
+  padding: 10px 15px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ytVideoSuggestionSection {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.ytVideoSuggestionThumbnail {
+  width: 168px;
+  height: 94px;
+  border-radius: 12px;
+}
+
+.video-suggestion-thumbnail-img {
+  width: inherit;
+}
+
+.ytVideoSuggestionDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.ytVideoSuggestionTitle {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.ytVideoSuggestionChannelName {
+  font-size: 13px;
+  color: #ffffff9c;
+}

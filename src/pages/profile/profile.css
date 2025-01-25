@@ -1,0 +1,152 @@
+.profile{
+    display: flex;
+    width: 100%;
+    padding: 10px 13px 0 13px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.profile_page{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    margin-left: 270px;
+    color: white;
+    margin-top: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.invisibleSideBar{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    color: white;
+    margin-top: 56px;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: black;
+
+}
+
+.profile_page_top{
+    width: 100%;
+    display: flex;
+    padding: 0 0 20px 0;
+}
+
+.profile_img{
+    width: 15%;
+}
+
+.profile-image{
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+.profile_details{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 0 10px;
+    width: 85%;
+}
+
+.profile_details_name{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.profile_info{
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+}
+
+.subscribe_btn {
+    display: flex;
+    
+}
+
+.subscribe_btn button {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff; /* White text */
+    background-color: #cc0000; /* YouTube red */
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    padding: 8px 16px; /* Proper padding for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.subscribe_btn button:hover {
+    background-color: #b30000; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.subscribe_btn button:active {
+    transform: scale(0.95); /* Slightly shrink the button when clicked */
+}
+
+.profile_page_bottom{
+    width: 100%;
+}
+
+.profile-video-title{
+    font-size: 22px;
+    padding-bottom: 10PX;
+    color: rgb(207,206,206);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+.profileVideoes{
+    display: flex;
+    gap: 10px;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.profileVideoBlock{
+    width: 210px;
+    cursor: pointer;
+}
+
+.profileVideoThumbnail{
+    width: 100%;
+    height: 140px;
+}
+
+.yt-thumbnail-pic{
+    width: 100%;
+    height: 100%;
+}
+
+.profile-video-detail{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile-video-titles{
+    font-size: 16px;
+    width: 100%;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.profile-video-created-details{
+    color: #ababab;
+    font-size: 13px;
+}
+
