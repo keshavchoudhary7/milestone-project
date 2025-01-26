@@ -5,6 +5,8 @@ import ThumbDownOffAltIcon from "@mui/icons-material/ThumbDownOffAlt";
 import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import { Link } from "react-router-dom";
 const SinglePage = () => {
+
+  
   const [comment,setComment] = useState('')
   console.log(comment)
   return (
