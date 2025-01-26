@@ -23,8 +23,6 @@ const Signup = () => {
 
 
   // handle image upload 
-  // const [signUpProfile,setSignUpProfile] = useState('https://cdn-icons-png.freepik.com/256/16012/16012747.png')
-
   const handleUploadImage = async (e) => {
     const files = e.target.files;
     const data = new FormData();
